@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Bacasime+Antique&family=Lexend:wght@400;600&family=Roboto+Slab&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Bacasime Antique', serif;
+    font-family: 'Lexend', sans-serif;
+    font-family: 'Roboto Slab', serif;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+}
+.heading{
+    background-color: black;
+}
+
+#navbarNav ul li a{
+    color: white;
+}
+#navbarNav ul li a:hover{
+    color: aqua;
+    border-bottom: 2px solid aquamarine;
+}
+.imag1{
+    background-image: url("maldives.jpg");
+    background-size: cover;
+    width: 1280px;
+    height: 350px;
+}
+.imag1 h1{
+    color: white;
+    text-align: center;
+    padding-top: 10rem;
+}
+.content{
+    height: 400px;
+    width: 100%;
+    /* background-color: bisque; */
+    padding: 50px 80px;
+    display: flex;
+}
+.left{
+    width: 50%;
+    /* background-color: blue; */
+    padding-top: 10px;
+}
+.right{
+    width: 50%;
+    /* background-color: blueviolet; */
+    padding-top: 10px;
+    padding-left: 80px;
+}
+.right img{
+    border-radius: 14px;
+}
+.footer{
+    height: 40px;
+    /* background-color: blueviolet; */
+    /*  */
+    padding-top: 10px;
+    padding-right: 30px;
+}
+.footer p{
+
+    text-align: center;
+    color: blue;
+}
